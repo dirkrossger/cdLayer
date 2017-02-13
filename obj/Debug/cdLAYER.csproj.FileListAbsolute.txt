@@ -2,3 +2,8 @@ H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\bin\Debug\cdLAYER.dll
 H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\bin\Debug\cdLAYER.pdb
 H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.dll
 H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.pdb
+C:\Git-repository\cdLayer\obj\Debug\cdLAYER.csprojResolveAssemblyReference.cache
+C:\Git-repository\cdLayer\obj\Debug\cdLAYER.dll
+C:\Git-repository\cdLayer\obj\Debug\cdLAYER.pdb
+C:\Git-repository\cdLayer\bin\Debug\cdLAYER.dll
+C:\Git-repository\cdLayer\bin\Debug\cdLAYER.pdb
