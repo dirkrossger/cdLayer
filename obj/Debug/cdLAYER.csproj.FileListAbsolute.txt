@@ -1,0 +1,4 @@
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\bin\Debug\cdLAYER.dll
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\bin\Debug\cdLAYER.pdb
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.dll
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.pdb
