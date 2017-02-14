@@ -19,17 +19,8 @@ namespace cdLAYER
         [CommandMethod("xx")]
         public void LayerOnOff()
         {
-            cLayer.ReadLayers();
-
-            Document acDoc = Application.DocumentManager.MdiActiveDocument;
-            Editor ed = acDoc.Editor;
-
-            PromptStringOptions pso = new PromptStringOptions("\nGive Layer name");
-            PromptResult res = ed.GetString(pso);
-            if (res.Status != PromptStatus.OK)
-                return;
-            string name = res.StringResult;
-            cLayer.TurnLayerOff(name);
+            Form1 _Form = new Form1();
+            _Form.ShowDialog();
 
 
         }

@@ -7,3 +7,6 @@ C:\Git-repository\cdLayer\obj\Debug\cdLAYER.dll
 C:\Git-repository\cdLayer\obj\Debug\cdLAYER.pdb
 C:\Git-repository\cdLayer\bin\Debug\cdLAYER.dll
 C:\Git-repository\cdLayer\bin\Debug\cdLAYER.pdb
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.csprojResolveAssemblyReference.cache
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.Form1.resources
+H:\GIT-repository\LayerReader\cdLAYER\cdLAYER\obj\Debug\cdLAYER.csproj.GenerateResource.Cache
