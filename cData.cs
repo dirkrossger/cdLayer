@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace cdLAYER
 {
-    class Data
+    class cData
     {
         public static DataTable ConvertListToDataTable(List<LayerItem> list)
         {
@@ -15,14 +15,17 @@ namespace cdLAYER
 
             table.Columns.Add(); //Add empty column
             table.Columns[0].ColumnName = "Layer";
-
             table.Columns.Add(); //Add empty column
-            table.Columns[1].ColumnName = "Layoutname";
+            table.Columns[1].ColumnName = "IsOff";
+            table.Columns.Add(); //Add empty column
+            table.Columns[2].ColumnName = "IsFrozen";
+
+
             int incr = 2;
             foreach (LayerItem layer in list)
             {
                 DataRow newRow = table.NewRow();
-                table.Rows.Add(layer);
+                table.Rows.Add(layer.Name, layer.IsOff, layer.IsFrozen);
                 incr++;
             }
 

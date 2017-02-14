@@ -92,17 +92,12 @@ namespace cdLAYER
             {
                 LayerTable acLyrTbl = acTrans.GetObject(acCurDb.LayerTableId, OpenMode.ForRead) as LayerTable;
 
-                string sLayerNames = "";
-
                 foreach (ObjectId acObjId in acLyrTbl)
                 {
-                    LayerTableRecord acLyrTblRec; acLyrTblRec = acTrans.GetObject(acObjId, OpenMode.ForRead) as LayerTableRecord;
-                    result.Add(new LayerItem { Name = acLyrTblRec.Name });
-
-                    //sLayerNames = sLayerNames + "\n" + acLyrTblRec.Name;
+                    LayerTableRecord acLyrTblRec;
+                    acLyrTblRec = acTrans.GetObject(acObjId, OpenMode.ForRead) as LayerTableRecord;
+                    result.Add(new LayerItem { Name = acLyrTblRec.Name, IsOff = acLyrTblRec.IsOff, IsFrozen = acLyrTblRec.IsFrozen });
                 }
-
-                //Application.ShowAlertDialog("The layers in this drawing are: " + sLayerNames);
                 return result;
             }
         }
@@ -112,7 +107,8 @@ namespace cdLAYER
     public class LayerItem
     {
         public string Name { get; set; }
-        public string OnOff { get; set; }
+        public bool IsOff { get; set; }
+        public bool IsFrozen { get; set; }
     }
 }
 

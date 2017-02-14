@@ -22,7 +22,6 @@ namespace cdLAYER
             Form1 _Form = new Form1();
             _Form.ShowDialog();
 
-
         }
     }
 }

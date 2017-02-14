@@ -57,7 +57,7 @@
     <Compile Include="cCommands.cs" />
     <Compile Include="cFile.cs" />
     <Compile Include="cLayer.cs" />
-    <Compile Include="Data.cs" />
+    <Compile Include="cData.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
